@@ -29,13 +29,13 @@ body {
 }
 
 .my_photo {
-    background: url("https://github.com/DenisBaranov-FEFU/My_Site/blob/main/Me.png") no-repeat center center;
+    background: url("https://raw.githubusercontent.com/DenisBaranov-FEFU/My_Site/main/Me.png") no-repeat center center;
     background-size: 100%;
     width: 230px;
     height: 370px;
 }
 .nav_logo {
-    background: url("https://github.com/DenisBaranov-FEFU/My_Site/blob/main/logo.png") no-repeat center center;
+    background: url("https://raw.githubusercontent.com/DenisBaranov-FEFU/My_Site/main/logo.png") no-repeat center center;
     background-size: 100%;
     width: 40px;
     height: 40px;
