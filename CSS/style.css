@@ -1,0 +1,53 @@
+body {
+    background-color: #FFA07A;
+    font-family: 'Press Start 2P', monospace;
+    color: #E0FFFF;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.row {
+}
+
+.col-8 {
+}
+
+.col-4 {
+}
+
+.col-3.nav_logo {
+}
+
+.my_photo {
+    background: url("file:///C:/Users/AsusPC/Desktop/Me.png") no-repeat center center;
+    background-size: 100%;
+    width: 230px;
+    height: 370px;
+}
+.nav_logo {
+    background: url("file:///C:/Users/AsusPC/Desktop/logo.png") no-repeat center center;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+}
+.col-9 {
+}
+
+.nav_text {
+}
+
+.img_size {
+}
+
+.title_photo {
+}
