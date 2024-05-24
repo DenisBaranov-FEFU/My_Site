@@ -40,6 +40,16 @@ body {
     width: 40px;
     height: 40px;
 }
+#myButton {
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #FF6347;
+    color: aliceblue;
+    font-weight: bold;
+}
 .col-9 {
 }
 
