@@ -45,21 +45,21 @@
 </head>
 <body>
     <div class="container form-container">
-        <h1>Регистрация</h1>
+        <h1>Registration</h1>
         <form method="POST" action="registration.php">
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Введите email" required>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
             </div>
             <div class="mb-3">
-                <label for="login" class="form-label">Логин</label>
-                <input type="text" class="form-control" id="login" name="login" placeholder="Введите логин" required>
+                <label for="login" class="form-label">Login</label>
+                <input type="text" class="form-control" id="login" name="login" placeholder="Login" required>
             </div>
             <div class="mb-3">
-                <label for="password" class="form-label">Пароль</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Введите пароль" required>
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
             </div>
-            <button type="submit" class="btn_reg" name="submit">Продолжить</button>
+            <button type="submit" class="btn_reg" name="submit">Continue</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qjft47mcLlH/b/PEQs/LLSRGbKOcYgoBX5kJZmrPcX5xgHhgji3d8sj2kl4pxDdQ" crossorigin="anonymous"></script>
