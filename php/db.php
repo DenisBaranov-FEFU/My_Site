@@ -21,12 +21,23 @@ $link = mysqli_connect($servername, $username, $password, $dbName);
 
 $sql = "CREATE TABLE IF NOT EXISTS users(
   id  INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  username VARCHAR(15) NOT NULL,
+  username VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
-  pass VARCHAR(20) NOT NULL
+  pass VARCHAR(50) NOT NULL
 )";
 
-if(!mysqli_qyery($link, $sql)) {
+if(!mysqli_query($link, $sql)) {
+  echo "Не удалось создать таблицу Users";
+}
+
+$sql = "CREATE TABLE IF NOT EXISTS users(
+  id  INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  pass VARCHAR(50) NOT NULL
+)";
+
+if(!mysqli_query($link, $sql)) {
   echo "Не удалось создать таблицу Users";
 }
 
