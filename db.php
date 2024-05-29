@@ -2,7 +2,7 @@
 $servername = "127.0.0.1";
 $username = "your_user_name";
 $password = "password";
-$dbName = "db_name";
+$dbName = "mydata";
 
 $link = mysqli_connect($servername, $username, $password);
 ​
@@ -13,7 +13,7 @@ if (!link) {
 $sql = "CREATE DATABASE IF NOT EXIST $dbName";
 
 if (!mysqli_query($link, $sql)) {
-  echo "Не удалось создать БД";
+  echo "Database creation failed";
 }
 
 mysqli_close($link);
@@ -27,7 +27,7 @@ $sql = "CREATE TABLE IF NOT EXISTS users(
 )";
 
 if(!mysqli_query($link, $sql)) {
-  echo "Не удалось создать таблицу Users";
+  echo "Users table creation failed";
 }
 
 $sql = "CREATE TABLE IF NOT EXISTS users(
@@ -38,7 +38,7 @@ $sql = "CREATE TABLE IF NOT EXISTS users(
 )";
 
 if(!mysqli_query($link, $sql)) {
-  echo "Не удалось создать таблицу Users";
+  echo "Users table creation failed";
 }
 
 mysqli_close($link);
