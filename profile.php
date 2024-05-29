@@ -18,7 +18,7 @@
            <?php
                if (!isset($_COOKIE['User'])) {
                 ?>
-                   <a href="/registration.php">Sign up</a> or <a href="/login.php">Log in</a>, to view the content!
+                   <a href="/My_Site/registration.php">Sign up</a> or <a href="/My_Site/login.php">Log in</a>, to view the content!
                <?php
                } else {
                    // подключение к БД
