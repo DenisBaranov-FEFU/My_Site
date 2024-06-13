@@ -1,12 +1,12 @@
 ﻿<?php
 $servername = "127.0.0.1";
-$username = "your_user_name";
-$password = "password";
+$username = "root";
+$password = "kali";
 $dbName = "mydata";
 
 $link = mysqli_connect($servername, $username, $password);
 ​
-if (!link) {
+if (!$link) {
   die("Connection failed: " . mysqli_connection_error());
 }
 
